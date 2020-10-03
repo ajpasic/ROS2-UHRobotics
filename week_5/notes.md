@@ -28,7 +28,7 @@ where *moveValue* is either the absolute position you want to move the local ori
 
 You can also create an occupancy grid from an image.
 ```
-img = imread('UH.png')
+image = imread('UH.png')
 grayimage = rgb2gray(image);
 bwimage = grayimage < 0.5;
 grid = binaryOccupancyMap(bwimage);
