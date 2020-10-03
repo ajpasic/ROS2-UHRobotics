@@ -36,4 +36,6 @@ show(grid)
 ```
 The threshold of 0.5 determines which cells in the resulting occupancy grid are occupied.
 
+You can also run the example command `openExample('nav_robotics/ImageToBinaryOccupancyGridExampleExample')` to see a working image import function.
+
 Now run the command `openExample('robotics/PathFollowingControllerExample')` to see how path planning algorithms utilize the well-defined workspaces that occupancy grids provide.
