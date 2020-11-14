@@ -66,8 +66,13 @@ plotv(rotate(points1, angle), T);
 % halving it and then some.
 
 %% Important properties of DH Transformation
-% The origin of each reference frame is always located along
+% 1. The origin of each reference frame is always located along
 % the joint's axis of rotation
-% The translation between reference frames is always in a
+% 2. The translation between reference frames is always in a
 % direction orthogonal to both axes of rotation - this means
-% we only need to rotate along a single axis to get to 
+% we only need to rotate along a single axis before
+% translating our coordinate frame. (Which axis is that?)
+% 3. The x-axis of the previous coordinate frame is
+% perpendicular to the z-axis of the new one.
+
+% d - defines the distance between 
