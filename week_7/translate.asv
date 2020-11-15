@@ -1,8 +1,0 @@
-function [point] = translate(point, translation)
-%TRANSLATE moves a point
-% Takes in a point and a vector, then returns their sum
-pointx = pointx + translation(1);
-pointy = pointy + translation();
-point = [pointx, pointy]
-end
-

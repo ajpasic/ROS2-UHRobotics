@@ -34,9 +34,10 @@ plotv(translate(points1, translation), T);
 % Let's take a look at a typical rotation matrix for
 % rotating a 2D vector. To find the values for a rotation
 % matrix, you first need to specify the angle you want to
-% rotate by. Positive angles result in clockwise rotation.
+% rotate by. Positive angles result in anti-clockwise
+% rotation.
 
-angle = 11*pi/23; % specify the angle
+angle = -11*pi/23; % specify the angle
 hold off
 T(1) = 'r';
 plotv(points1, T);
@@ -74,5 +75,3 @@ plotv(rotate(points1, angle), T);
 % translating our coordinate frame. (Which axis is that?)
 % 3. The x-axis of the previous coordinate frame is
 % perpendicular to the z-axis of the new one.
-
-% d - defines the distance between 
